@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tong{
+            display:flex;
+            display:grid;
+            grid-template-areas:
+            "mot hai ba"
+            "bon nam sau"
+            "bay tam chin" ;
+            text-align: center;
+            grid-template-columns: 300px 1fr 300px;
+            grid-template-rows: 150px auto 50px;
+            color:white;
+            
+        }
+        .mot{
+            grid-area: mot;
+            background-color: darkorchid;
+        }
+        .hai{
+            grid-area: hai;
+            background-color: darkorchid;
+            grid-template-rows: auto-fit;
+        }
+        .ba{
+            grid-area: ba;
+            background-color: darkorchid;
+        }
+        .bon{
+            grid-area: bon;
+            background-color: darkorchid;
+        }
+        .nam{
+            grid-area: nam;
+            background-color: darkorchid;
+        }
+        .sau{
+            grid-area: sau;
+            background-color: darkorchid;
+        }
+        .bay{
+            grid-area: bay;
+            background-color: darkorchid;
+        }
+        .tam{
+            grid-area: tam;
+            background-color: darkorchid;
+        }
+        .chin{
+            grid-area: chin;
+            background-color: darkorchid;
+        }
+
+    </style>
+</head>
+<body>
+   
+    
+    <div class="tong">
+        <div class="mot">1</div>
+        <div class="hai">2</div>
+        <div class="ba">3</div>
+        <div class="bon">4</div>
+        <div class="nam">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas exercitationem et, unde, aliquid enim voluptate quasi, iusto quibusdam impedit quaerat aspernatur similique cumque. Odit mollitia unde, nemo iste dolor asperiores?
+        </div>
+        <div class="sau">6</div>
+        <div class="bay">7</div>
+        <div class="tam">8</div>
+        <div class="chin">9</div>
+    </div>
+</body>
+</html>
